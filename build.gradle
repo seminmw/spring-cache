@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+archivesBaseName = 'SpringCache'
+version = '1' 
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter:1.2.7.RELEASE'
+    compile 'org.springframework:spring-context-support:4.1.8.RELEASE'
+    compile 'com.google.guava:guava:19.0-rc2' 
+} 
